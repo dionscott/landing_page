@@ -3,9 +3,30 @@ body {
     flex-direction: column;
     height: 100vh;
     background-color: #1f2937;
+    margin: 0 30px;
 }
 
 header, .first, .second, .third, footer {
     display: flex;
     flex: 1 0 auto;
+}
+
+header {
+    justify-content: space-between;
+    font-weight: bolder;
+    color: #f9faf8;
+    align-items: center;
+    height: 0;
+}
+
+header h3 {
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    font-size: 18px;
+    color: #e5e7eb;
 }
