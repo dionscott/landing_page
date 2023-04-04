@@ -8,7 +8,7 @@ body {
 
 header, .first, .second, .third, .fourth, footer {
     display: flex;
-    flex: 1 0 auto;
+    flex: 1 1 auto;
     padding: 0 10%;
 }
 
@@ -76,6 +76,32 @@ button {
     border-radius: 4px;
 }
 
+.second {
+    flex-direction: column;
+    padding: 0 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.second .info h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
 .boxes {
     display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    flex: 0 1 20%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box p {
+    text-align: center;
 }
