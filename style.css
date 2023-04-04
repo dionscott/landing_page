@@ -4,6 +4,7 @@ body {
     height: 100vh;
     background-color: #1f2937;
     margin: 0 30px;
+    padding: 0 150px;
 }
 
 header, .first, .second, .third, footer {
@@ -13,7 +14,6 @@ header, .first, .second, .third, footer {
 
 header {
     justify-content: space-between;
-    font-weight: bolder;
     color: #f9faf8;
     align-items: center;
     height: 0;
@@ -21,6 +21,7 @@ header {
 
 header h3 {
     font-size: 24px;
+    font-weight: bolder;
 }
 
 ul {
@@ -29,4 +30,38 @@ ul {
     gap: 20px;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.first {
+    align-items: center;
+    gap: 30%;
+}
+
+.left h1 {
+    font-size: 48px;
+    font-weight: 1000;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+.left {
+    flex: 0 1 35%;
+    color: #f9faf8;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 6px;
+    font-weight: 900;
+    padding: 4px 10px;
+    border: none;
 }
