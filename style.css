@@ -2,16 +2,19 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-color: #1f2937;
-    margin: 0 30px;
-    padding: 0 150px;
+    margin: 0;
+    padding: 0;
 }
 
-header, .first, .second, .third, footer {
+header, .first, .second, .third, .fourth, footer {
     display: flex;
     flex: 1 0 auto;
+    padding: 0 10%;
 }
 
+header, .first, footer {
+    background-color: #1f2937;
+}
 header {
     justify-content: space-between;
     color: #f9faf8;
@@ -42,7 +45,7 @@ ul {
     font-weight: 1000;
 }
 
-img {
+.right img {
     width: 300px;
     height: auto;
 }
@@ -64,4 +67,15 @@ button {
     font-weight: 900;
     padding: 4px 10px;
     border: none;
+}
+
+.boxes img {
+    width: 100px;
+    height: auto;
+    border: 5px solid #3882f6;
+    border-radius: 4px;
+}
+
+.boxes {
+    display: flex;
 }
