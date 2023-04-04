@@ -46,7 +46,7 @@ ul {
 }
 
 .right img {
-    width: 300px;
+    width: 200px;
     height: auto;
 }
 
@@ -70,9 +70,9 @@ button {
 }
 
 .boxes img {
-    width: 100px;
+    width: 50px;
     height: auto;
-    border: 5px solid #3882f6;
+    border: 3px solid #3882f6;
     border-radius: 4px;
 }
 
@@ -81,12 +81,14 @@ button {
     padding: 0 20%;
     justify-content: center;
     align-items: center;
+    gap: 1em;
 }
 
 .second .info h2 {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+    margin: 0;
 }
 
 .boxes {
@@ -104,4 +106,31 @@ button {
 
 .box p {
     text-align: center;
+}
+
+.third {
+    background-color: #e5e7eb;
+    flex: 0 1 auto;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 20%;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    align-self: center;
+}
+
+.quoter {
+    align-self: flex-end;
+    margin-top: -1em;
+    margin-right: -1em;
+    font-weight: 700;
+}
+
+p {
+    margin: 0;
 }
